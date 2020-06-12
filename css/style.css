@@ -1,0 +1,234 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #454545;
+    background: url(../images/bj.png) repeat;
+}
+ul,
+li {
+    list-style: none;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row {
+    margin: 0;
+}
+.margin-top-40 {
+    margin-top: 40px;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.8) !important;
+    padding-top: 15px;
+}
+.navbar li .nav-link {
+    color: #fff !important;
+}
+.navbar .navbar-brand {
+    color: #fff !important;
+    font-size: 30px;
+}
+.dropdown-menu a {
+    color: #337ab7 !important;
+}
+.down-bj li a {
+    color: #1d1d1b !important;
+}
+.navbar .navbar-nav > .active > a {
+    background: #337ab7 !important;
+}
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:focus,
+.navbar .navbar-nav > .open > a:hover {
+    background: #337ab7 !important;
+}
+
+#carousel .carousel-control {
+    font-size: 100px !important;
+    padding-top: 10%;
+}
+#carousel .carousel-indicators li {
+    cursor: pointer;
+}
+
+.search {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #d2cdca;
+    padding-bottom: 20px;
+}
+.search .search-input {
+    margin-top: 40px;
+    border-left: solid 2px #ccc;
+    border-right: solid 2px #ccc;
+}
+.search .search-input .fa-search {
+    cursor: pointer;
+}
+.search h3 {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.search .search-input span {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+.search .search-tel {
+    height: 120px;
+    line-height: 120px;
+}
+.search .search-tel span {
+    margin-right: 10px;
+}
+.search .blockquote {
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 2;
+}
+.search .search-title {
+    font-size: 16px;
+}
+.product {
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    border-bottom: solid 2px #d2cdca;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+h2 span {
+    background: url(../images/bj.png);
+    padding: 0 15px;
+}
+.product .product-title {
+    position: relative;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    height: 40px;
+    line-height: 40px;
+}
+.product img {
+    width: 100%;
+}
+
+.nav-bottom li,
+.nav-pills li {
+    border-bottom: #ccc dashed 1px;
+}
+.nav-tabs li a {
+    display: block;
+    color: #1d1d1b;
+    height: 60px;
+    line-height: 60px;
+}
+.nav-tabs li:first-child {
+    color: #fff !important;
+}
+.tab-pane {
+    text-align: center;
+}
+.tab-pane .col-sm-3 {
+    float: left;
+}
+.tab-pane div .tab-title {
+    position: relative;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    background-color: #337ab7 !important;
+    color: #fff;
+    border: none;
+    height: 60px;
+    line-height: 60px;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: #337ab7 !important;
+    color: #fff;
+}
+.nav-tabs span {
+    margin-right: 20px;
+    background: #337ab7;
+    border-radius: 50%;
+    color: #fff;
+    width: 18px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+}
+.new-product {
+    margin-top: 40px;
+}
+.media,
+.list-group {
+    text-align: left;
+    margin-top: 15px;
+}
+.media img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+#video {
+    margin: 10px auto 0;
+    width: 100%;
+    height: 190px;
+}
+
+.footer {
+    background: url(../images/footerBj.jpg) no-repeat;
+    width: 100%;
+    height: 180px;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.footer .overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute !important;
+    z-index: 1 !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer #lian {
+    text-align: center;
+}
+.footer-bj {
+    background: #f1f0ee;
+    border: 1px solid #fff;
+    top: 30px;
+    line-height: 2;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.footer-bj .dashed {
+    border-top: dashed 1px #c7c6c4;
+    z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
+
+#latestProduct,
+#sweetyCake,
+#newArrival,
+#customerReviews,
+#contactUs {
+    padding-top: 80px; /* 80px是导航栏高度 */
+    margin-top: -80px;
+}
